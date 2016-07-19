@@ -5,5 +5,5 @@ app=Flask(__name__)
 def index():
 	return '<h1>Hello Beautiful World!</h1>'					
 
-	if __name__=='__main__':
-		app.run(debug=True)
+if __name__=='__main__':
+	app.run(debug=True)
